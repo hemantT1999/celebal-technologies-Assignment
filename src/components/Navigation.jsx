@@ -1,13 +1,7 @@
-/*-------------------------------------------------------------------
-|  🐼 React FC Navigation
-|
-|  🐯 Purpose: TOP NAVIGATION BAR
-|
-|  🐸 Returns:  JSX
-*-------------------------------------------------------------------*/
+
 
 import React from 'react'
-import { BsGithub, BsTwitter } from 'react-icons/bs'
+import { BsGithub,} from 'react-icons/bs'
 
 export const Navigation = () => {
   return (
@@ -15,12 +9,10 @@ export const Navigation = () => {
       <nav className="container flex justify-between items-center">
         <div className="font-semibold">React Forms</div>
         <div className="flex items-center gap-4 text-lg">
-          <a href="https://github.com/Yazdun/react-fcc-forms" target="_blank">
+          <a href="https://github.com/hemantT1999" target="_blank">
             <BsGithub />
           </a>
-          <a href="https://twitter.com/Yazdun" target="_blank">
-            <BsTwitter />
-          </a>
+         
         </div>
       </nav>
     </div>

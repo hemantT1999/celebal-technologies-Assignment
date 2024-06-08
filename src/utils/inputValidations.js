@@ -1,11 +1,3 @@
-/*-------------------------------------------------------------------
-|  🐼 Input Validators 
-|
-|  🐯 Purpose: THIS FILE CONTAINS ALL THE VALIDATORS OBJECTS
-|
-|  🐸 Returns:  -
-*-------------------------------------------------------------------*/
-
 export const name_validation = {
   name: 'name',
   label: 'name',
@@ -25,19 +17,19 @@ export const name_validation = {
 }
 
 export const desc_validation = {
-  name: 'description',
-  label: 'description',
-  multiline: true,
+  name: 'Adhaar Card',
+  label: 'Adhaar Card',
+  type: 'text',
   id: 'description',
-  placeholder: 'write description ...',
+  placeholder: 'Adhaar card details',
   validation: {
     required: {
       value: true,
       message: 'required',
     },
     maxLength: {
-      value: 200,
-      message: '200 characters max',
+      value: 12,
+      message: '12 characters max',
     },
   },
 }
@@ -61,11 +53,11 @@ export const password_validation = {
 }
 
 export const num_validation = {
-  name: 'num',
+  name: 'Phone Number',
   label: 'number',
   type: 'number',
   id: 'num',
-  placeholder: 'write a random number',
+  placeholder: 'write Phone number',
   validation: {
     required: {
       value: true,

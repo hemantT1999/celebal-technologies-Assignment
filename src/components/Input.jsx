@@ -1,10 +1,4 @@
-/*-------------------------------------------------------------------
-|  🐼 React FC Input
-|
-|  🐯 Purpose: RE-USEABLE INPUT COMPOENT
-|
-|  🐸 Returns:  JSX
-*-------------------------------------------------------------------*/
+
 
 import cn from 'classnames'
 import { findInputError, isFormInvalid } from '../utils'
